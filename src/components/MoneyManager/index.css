@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10%;
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px;
+}
+.money-manager-text {
+  color: #0b69ff;
+  display: flex;
+  justify-content: space-between;
+}
+.money-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.balance-container {
+  background-color: #ecfccb;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.income-container {
+  background-color: #cffafe;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-image {
+  height: 90px;
+  align-self: center;
+}
+
+.money-type {
+  font-size: 14px;
+}
+.money-value {
+  font-size: 36px;
+}
+.transaction-container {
+  display: flex;
+  justify-content: space-between;
+}
+.add-transaction {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-form {
+  display: flex;
+  flex-direction: column;
+}
+.add-button {
+  margin-top: 10px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+}
+.transaction-history {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.table-head {
+  width: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.table-content {
+  width: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.delete-img {
+  height: 15px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
